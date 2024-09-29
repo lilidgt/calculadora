@@ -1,0 +1,33 @@
+# Calculadora da Lissa
+
+Desenvolvida com HTML, CSS e JavaScript. Possui essas operações:
+- Adição (+)
+- Subtração (-)
+- Multiplicação (×)
+- Divisão (÷)
+- Porcentagem (%)
+
+# -> Estrutura:
+
+- `index.html`: Estrutura
+- `styles.css`: Aparência
+- `script.js`: Lógica para as operações
+
+# -> Como Usar
+
+1. Abrir o arquivo `index.html` no navegador.
+2. Usar os botões numéricos (0-9) e os operadores (+, -, *, /, %) para montar sua expressão.
+3. Usar o botão `=` para calcular o resultado.
+4. Usar `C` para limpar o display ou `DEL` para apagar o último caracter.
+
+# -> Lógica (js)
+- A função `appendCharacter(character)` adiciona o número ou operador digitado ao display.
+- A função `clearDisplay()` limpa todo o display.
+- A função `deleteLast()` apaga o último caracter.
+- A função `calculate()` avalia a expressão atual do display, calcula o resultado e o exibe.
+
+# -> eval()
+- A função `calculate()` usa o comando `eval()` para calcular a expressão, exibindo um alerta caso ocorra erro.
+
+# -> Obrigada! :D
+
